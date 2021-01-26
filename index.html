@@ -1,16 +1,51 @@
+<!-- The DOCTYPE-tag is read by the client machine. It tells the machine what kind of code/language is used in the doc. -->
 <!DOCTYPE html>
+
+<!-- This sets the language -->
 <html lang="en">
 
+<!-- The head-tag contains meta data that can not be read by the user. -->
 <head>
+    <!-- The encoding that was used for this doc -->
     <meta charset="UTF-8">
+    <!-- The name of the author -->
     <meta name="author" content="Kai"/>
+    <!-- Describing the content of this page. Important for indexing by search engines f.e. -->
     <meta name="description" content="This is just an exercise....">
+    <!-- The title that can be seen in the title line of the browser and in the tab -->
     <title>Basic Structure Practice</title>
 </head>
 
+<!-- Here goes the actual content that can be read by the user -->
 <body>
-    <h1>This is the most important heading</h1>
-    <h2>This heading is a little less important</h2>
-    <h3>This heading is less important than the heading above</h3>
+    
+    <!-- Different headings with title attribute. Title attribute creates a tooltip that is shown to the user if the user hovers over the according html element. -->
+    <h1 title="This is an h1-heading">This is the most important heading</h1>
+    <!-- The p-tag is used for paragraphs. Text that is shown to the user should always be wrapped in a tag, like the p-tag, f.e.  -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, illo? Error reiciendis doloribus unde culpa illo minus placeat sint eveniet cum quibusdam, magni natus rem ut ea ipsum, reprehenderit quam.
+    </p>
+    
+    <h2 title="This is an h2-heading">This heading is a little less important</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, illo? Error reiciendis doloribus unde culpa illo minus placeat sint eveniet cum quibusdam, magni natus rem ut ea ipsum, reprehenderit quam.
+    </p>
+    
+    <h3 title="This is an h3-heading">This heading is less important than the heading above</h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, illo? Error reiciendis doloribus unde culpa illo minus placeat sint eveniet cum quibusdam, magni natus rem ut ea ipsum, reprehenderit quam.
+    </p>
+
+    <h4>Super cool ascii art</h4>
+    <pre>
+        /**********************************
+        *__        __   _     _   _       *
+        *\ \      / /__| |__ | | | |_ __  *
+        * \ \ /\ / / _ \ '_ \| | | | '_ \ *
+        *  \ V  V /  __/ |_) | |_| | |_) |*
+        *   \_/\_/ \___|_.__/ \___/| .__/ *
+        *                          |_|    *
+        ***********************************/
+    </pre>
 </body>
 </html>
